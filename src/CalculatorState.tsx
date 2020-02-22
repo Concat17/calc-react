@@ -1,5 +1,5 @@
 export type CalculatorState = {
-  total: number | null;
-  next: number | null;
+  total: string | null;
+  next: string | null;
   operation: string | null;
 };
